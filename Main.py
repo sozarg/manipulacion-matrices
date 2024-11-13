@@ -5,3 +5,9 @@ def incializar_matriz(cantidad_filas:int, cantidad_columnas:int, valor_inicial:a
         matriz += [filas]
     return matriz
 
+def mostrar_matriz(matriz:list) -> None:
+    for i in range(len(matriz)):
+        for j in range(len(matriz[i])):
+            print(matriz[i][j], end= "\t")
+        print()
+
